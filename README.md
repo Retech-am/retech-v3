@@ -56,8 +56,8 @@ Certifique-se de que as seguintes ferramentas estão instaladas:
 ### Rodando o Projeto
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/reteach-v3.git
-   cd reteach-v3
+   git clone https://github.com/seu-usuario/retech-v3.git
+   cd retech-v3
    ```
 2. Instale as dependências:
    ```bash
