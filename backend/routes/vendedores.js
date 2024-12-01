@@ -3,7 +3,7 @@ const bcrypt = require('bcrypt');
 const router = express.Router();
 const pool = require('../db');
 const jwt = require('jsonwebtoken');
-const secretKey = 'seu-segredo-seguro'; // Mantenha isso seguro e secreto
+const secretKey = 'seu-segredo-seguro';
 
 
 // Middleware para verificar token JWT e adicionar cargo do usuário
