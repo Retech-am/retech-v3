@@ -3,7 +3,7 @@
 
 ## Visão Geral do Projeto
 
-RETECH V3 é um sistema de gestão de operações comerciais projetado para simplificar e organizar processos comerciais, como:
+RETECH é um sistema de gestão de operações comerciais projetado para simplificar e organizar processos comerciais, como:
 - Cadastro de veículos, clientes, e vendedores.
 - Registro de compras, vendas e pedidos.
 - Gestão de operações com montadoras.
