@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const pool = require('../db');
 const jwt = require('jsonwebtoken');
-const secretKey = 'seu-segredo-seguro'; // Substitua pela sua chave secreta
+const secretKey = 'seu-segredo-seguro';
 
 // Middleware para verificar token JWT e adicionar cargo do usuário
 function authenticateToken(req, res, next) {
