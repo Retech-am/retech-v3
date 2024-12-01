@@ -57,7 +57,7 @@ Certifique-se de que as seguintes ferramentas estão instaladas:
 1. Clone este repositório:
    ```bash
    git clone https://github.com/seu-usuario/retech-v3.git
-   cd retech-v3
+   cd retech_v3
    ```
 2. Instale as dependências:
    ```bash
