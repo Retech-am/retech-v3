@@ -1,0 +1,92 @@
+.required {
+    color: red;
+    margin-left: 4px;
+}
+
+.veiculos-content {
+    padding: 20px;
+}
+
+.veiculos-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 14px; /* Ajustado para um tamanho de fonte menor */
+    text-align: left;
+}
+
+.veiculos-table th,
+.veiculos-table td {
+    padding: 8px; /* Ajustado para manter consistência */
+    border: 1px solid #ddd;
+}
+
+.veiculos-table th {
+    background-color: #333;
+    color: white;
+}
+
+.veiculos-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.veiculos-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Estilos para o botão de ações (cadastrar, editar, deletar) */
+.btn-cadastrar-veiculo,
+.btn-editar-veiculo,
+.btn-deletar-veiculo {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.btn-cadastrar-veiculo:hover,
+.btn-editar-veiculo:hover,
+.btn-deletar-veiculo:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para o formulário de cadastro/edição de veículo */
+.form-cadastro-veiculo {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.form-cadastro-veiculo label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.form-cadastro-veiculo input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilos para a barra de pesquisa */
+.search-bar {
+    width: 300px; /* Define uma largura menor para a barra de pesquisa */
+    padding: 8px;
+    margin: 15px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    display: inline-block; /* Faz com que a barra de pesquisa ocupe apenas o espaço necessário */
+    margin-right: 15px; /* Espaço entre a barra de pesquisa e os botões, se necessário */
+    vertical-align: middle; /* Alinha a barra de pesquisa com os botões */
+}

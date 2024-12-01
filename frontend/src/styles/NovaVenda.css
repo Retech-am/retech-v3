@@ -1,0 +1,103 @@
+/* Estilo geral para a página de Nova Venda */
+.nova-venda-content {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.nova-venda-content h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.nova-venda-content form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.nova-venda-content label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.nova-venda-content input,
+.nova-venda-content select {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.nova-venda-content input:focus,
+.nova-venda-content select:focus {
+    border-color: #007bff;
+}
+
+.nova-venda-content .btn-submit-venda {
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nova-venda-content .btn-submit-venda:hover {
+    background-color: #218838;
+}
+
+.nova-venda-content .btn-submit-venda:active {
+    background-color: #1e7e34;
+}
+
+.nova-venda-content .btn-submit-venda:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
+
+.nova-venda-content select {
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpath fill='%23333' d='M0 3l5 5 5-5z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 10px;
+}
+
+.nova-venda-content input[type="date"] {
+    padding: 9px 10px;
+}
+
+/* Estilo responsivo */
+@media (max-width: 768px) {
+    .nova-venda-content {
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    .nova-venda-content h1 {
+        font-size: 20px;
+    }
+
+    .nova-venda-content .btn-submit-venda {
+        padding: 10px;
+        font-size: 14px;
+    }
+}

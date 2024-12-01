@@ -1,0 +1,30 @@
+.pedidos-content {
+    padding: 20px;
+}
+
+.pedidos-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.pedidos-table th,
+.pedidos-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.pedidos-table th {
+    background-color: #333;
+    color: white;
+}
+
+.pedidos-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.pedidos-table tr:hover {
+    background-color: #f1f1f1;
+}

@@ -1,0 +1,31 @@
+.operacoes-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.operacoes-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.operacoes-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.operacoes-buttons button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.operacoes-buttons button:hover {
+    background-color: #45a049;
+}

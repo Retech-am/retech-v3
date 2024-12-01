@@ -1,0 +1,30 @@
+.montadoras-content {
+    padding: 20px;
+}
+
+.montadoras-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.montadoras-table th,
+.montadoras-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.montadoras-table th {
+    background-color: #333;
+    color: white;
+}
+
+.montadoras-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.montadoras-table tr:hover {
+    background-color: #f1f1f1;
+}

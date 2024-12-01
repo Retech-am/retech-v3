@@ -1,0 +1,30 @@
+.vendas-content {
+    padding: 20px;
+}
+
+.vendas-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.vendas-table th,
+.vendas-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.vendas-table th {
+    background-color: #333;
+    color: white;
+}
+
+.vendas-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.vendas-table tr:hover {
+    background-color: #f1f1f1;
+}

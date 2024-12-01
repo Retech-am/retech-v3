@@ -1,0 +1,30 @@
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; /* Espaço entre os botões */
+}
+
+.btn-save {
+    background-color: #28a745; /* Verde */
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.btn-cancel {
+    background-color: #dc3545; /* Vermelho */
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.btn-save:hover,
+.btn-cancel:hover {
+    opacity: 0.9;
+}
+
+.btn-save:active,
+.btn-cancel:active {
+    transform: scale(0.98); /* Efeito de clique */
+}

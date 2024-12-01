@@ -1,0 +1,39 @@
+.cadastro-montadora-content {
+    padding: 20px;
+}
+
+.form-cadastro-montadora {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.form-cadastro-montadora label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.form-cadastro-montadora input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn-cadastrar-montadora,
+.btn-editar-montadora,
+.btn-deletar-montadora {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 10px;
+}

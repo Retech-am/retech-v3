@@ -1,0 +1,54 @@
+.cadastro-veiculo-content {
+    padding: 20px;
+}
+
+.form-cadastro-veiculo {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.form-cadastro-veiculo label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.form-cadastro-veiculo input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn-cadastrar-veiculo,
+.btn-editar-veiculo,
+.btn-deletar-veiculo {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.btn-cadastrar-veiculo:hover {
+    background-color: #45a049;
+}
+
+.search-bar {
+    width: 300px; /* Define uma largura menor para a barra de pesquisa */
+    padding: 8px;
+    margin: 15px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    display: inline-block; /* Faz com que a barra de pesquisa ocupe apenas o espaço necessário */
+    margin-right: 15px; /* Espaço entre a barra de pesquisa e os botões, se necessário */
+    vertical-align: middle; /* Alinha a barra de pesquisa com os botões */
+}
