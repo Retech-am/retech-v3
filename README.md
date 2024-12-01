@@ -1,5 +1,5 @@
 
-# RETECH V3 - Sistema de Gestão de Operações Retech
+# RETECH - Sistema de Gestão de Operações Retech
 
 ## Visão Geral do Projeto
 
