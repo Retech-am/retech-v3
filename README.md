@@ -75,7 +75,7 @@ Certifique-se de que as seguintes ferramentas estão instaladas:
    ```
 4. Abra o frontend:
    ```bash
-   cd client
+   cd frontend
    npm start
    ```
 
